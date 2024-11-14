@@ -14,5 +14,19 @@ locals {
       topics             = ["terraform", "devops", "github"]
       visibility         = "public"
     }
+    "devops-course-terraform-aws-network" = {
+      description        = "This Automation should create and maintain every AWS Network resource"
+      gitignore_template = "Terraform"
+      name               = "devops-course-terraform-aws-network"
+      topics             = ["terraform", "devops", "aws", "network"]
+      visibility         = "public"
+    }
+    "devops-course-terraform-aws-cluster" = {
+      description        = "This Automation should create and maintain every AWS Cluster resource"
+      gitignore_template = "Terraform"
+      name               = "devops-course-terraform-aws-cluster"
+      topics             = ["terraform", "devops", "aws", "cluster"]
+      visibility         = "public"
+    }
   }
 }
