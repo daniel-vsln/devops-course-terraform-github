@@ -35,5 +35,12 @@ locals {
       topics             = ["frontend-masters"]
       visibility         = "public"
     }
+    "devops-course-terraform-product-service" = {
+      description        = "Automation for product services"
+      gitignore_template = "Terraform"
+      name               = "devops-course-terraform-product-service"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "public"
+    }
   }
 }
