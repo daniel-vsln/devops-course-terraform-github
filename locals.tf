@@ -28,5 +28,12 @@ locals {
       topics             = ["terraform", "devops", "aws", "cluster"]
       visibility         = "public"
     }
+    "devops-course-service" = {
+      description        = "Example product service"
+      gitignore_template = "Go"
+      name               = "devops-course-service"
+      topics             = ["frontend-masters"]
+      visibility         = "public"
+    }
   }
 }
